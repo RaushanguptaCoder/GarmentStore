@@ -1,0 +1,12 @@
+{
+  "name": "garmentstore",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && source venv/bin/activate && uvicorn main:app --reload --port 8000",
+    "install:frontend": "cd frontend && npm install",
+    "seed": "cd backend && source venv/bin/activate && python seed.py"
+  }
+}
