@@ -64,7 +64,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-1">
             <div className="bg-brand-600 text-white font-black text-xl px-3 py-1 rounded tracking-widest select-none">
-              AJIO
+              GUPTAJI
             </div>
             <span className="text-xs text-gray-400 font-light hidden sm:block">GarmentStore</span>
           </Link>

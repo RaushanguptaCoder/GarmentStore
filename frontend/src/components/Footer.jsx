@@ -2,17 +2,17 @@ import { Link } from 'react-router-dom'
 import { Instagram, Facebook, Twitter, Youtube, Mail, Phone, MapPin, Shield, Truck, RefreshCw, Headphones } from 'lucide-react'
 
 const FOOTER_LINKS = {
-  'About AJIO': ['About Us','Press','Careers','Corporate Information'],
-  'Help': ['FAQ','Track Order','Returns & Refunds','Shipping Policy','Contact Us'],
-  'For Brands': ['Sell on GarmentStore','Advertise with Us','Brand Programs'],
-  'Discover': ['New Arrivals','Best Sellers','Trending Now','Sale'],
+  'About GUPTAJI': ['About Us', 'Press', 'Careers', 'Corporate Information'],
+  'Help': ['FAQ', 'Track Order', 'Returns & Refunds', 'Shipping Policy', 'Contact Us'],
+  'For Brands': ['Sell on GarmentStore', 'Advertise with Us', 'Brand Programs'],
+  'Discover': ['New Arrivals', 'Best Sellers', 'Trending Now', 'Sale'],
 }
 
 const TRUST_BADGES = [
-  { icon: Truck,      title: 'Free Shipping',     desc: 'On orders above ₹999' },
-  { icon: RefreshCw,  title: 'Easy Returns',       desc: '30-day hassle-free returns' },
-  { icon: Shield,     title: 'Secure Payment',     desc: '100% secure transactions' },
-  { icon: Headphones, title: '24/7 Support',       desc: 'Dedicated customer care' },
+  { icon: Truck, title: 'Free Shipping', desc: 'On orders above ₹999' },
+  { icon: RefreshCw, title: 'Easy Returns', desc: '30-day hassle-free returns' },
+  { icon: Shield, title: 'Secure Payment', desc: '100% secure transactions' },
+  { icon: Headphones, title: '24/7 Support', desc: 'Dedicated customer care' },
 ]
 
 export default function Footer() {
@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="bg-brand-600 text-white font-black text-2xl px-4 py-2 rounded tracking-widest inline-block mb-4">
-              AJIO
+              GUPTAJI
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               India's leading fashion destination with 3000+ brands and millions of styles for Men, Women & Kids.
@@ -73,9 +73,9 @@ export default function Footer() {
         {/* Contact */}
         <div className="mt-10 pt-8 border-t border-gray-700 grid md:grid-cols-3 gap-4">
           {[
-            { icon: Mail,    text: 'support@garmentstore.com' },
-            { icon: Phone,   text: '1800-123-4567 (Toll Free)' },
-            { icon: MapPin,  text: 'Mumbai, Maharashtra, India' },
+            { icon: Mail, text: 'support@guptajigarments.com' },
+            { icon: Phone, text: '+91-9876543210' },
+            { icon: MapPin, text: 'Gurugram, Haryana, India' },
           ].map(({ icon: Icon, text }) => (
             <div key={text} className="flex items-center gap-2 text-sm text-gray-400">
               <Icon size={15} className="text-brand-400" />
